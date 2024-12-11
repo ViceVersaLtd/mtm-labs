@@ -5,7 +5,7 @@ namespace PublisherPortal.ViewModels.Home;
 
 public class OperationsViewModel
 {
-    public Operation OperationStatus { get; set; }
-    public IReadOnlyList<Operation> SubscriptionOperations { get; set; }
+    public Microsoft.Marketplace.SaaS.Models.SaaSOperation OperationStatus { get; set; }
+    public IReadOnlyList<Microsoft.Marketplace.SaaS.Models.SaaSOperation> SubscriptionOperations { get; set; }
     public Subscription Subscription { get; set; }
 }
